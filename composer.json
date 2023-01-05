@@ -1,0 +1,24 @@
+{
+    "name": "guillex/bienes-raices-php_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Guillex99",
+            "email": "mf17006@ues.edu.sv"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+
+        }
+    }
+}
